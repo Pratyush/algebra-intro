@@ -8,6 +8,7 @@ edition = "2018"
 ark-std = { version = "0.3" }
 ark-ff = { version = "0.3" }
 ark-ec = { version = "0.3" }
+ark-serialize = { version = "0.3" }
 ark-bls12-381 = { version = "0.3", features = [ "curve" ] }
 rand = { version = "0.8", features = [ "std", "std_rng" ] }
 num-bigint = { version = "0.4" }
